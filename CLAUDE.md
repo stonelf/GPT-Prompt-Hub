@@ -36,6 +36,8 @@
 - Every commit must compile and pass tests
 - No linter warnings, clear commit messages
 - Reuse code over duplication (DRY)
+- Follow SOLID principles to ensure maintainability and extensibility
+- Adhere to YAGNI principle to avoid over-engineering and focus on current requirements
 
 ### Error Handling & Logging
 
@@ -64,4 +66,3 @@
 
 **Never**: bypass tests, commit broken code, add unnecessary dependencies
 **Always**: work incrementally, provide good logs, handle errors gracefully, use native solutions when possible
-
